@@ -1,0 +1,68 @@
+/*position: relative არის ფუნქცია რომელიც გვაძლევს საშუალებას გადავაადგილოთ ელემენტები, ამის შემდეგ იწერება =
+ფუნქცია left, right, top და bottom და მივუწერთ რამდენი პიქსელი დაიტოვოს margini (სიცარიელე) მარცხნიდან  lefT: 200px (ანუ -
+გაიწევა მარჯვნივ არსებული პოზიციიდან);
+ასევე position-ს აქვს absolute ელემენტიც, position: absolute ამის მიხედვით უკვე რომელ მხარესაც მივუთითებთ იმ მხარეს საზღვრიდან
+დაიტოვებს margin-ს ანუ დაშორებას, ანუ lefT: 200px გაწევს ობიექტს მარცხნივ ხაზამდე 200 პიქსელის დაშორებით (მშობელი ელემენტისგან აშორებს, მაგრამ
+მშობელ ელემენტს ამ დროს უნდა მივანიჭოთ position: relative ).
+ასევე აქვს position-ს fix ელემენტი რაც ნიშნავს რომ ამ ელემენტს რა ადგილასაც განვათავსებთ ეკრანზე სულ იქ იქნება როცა ცამოსქროლავ ეკრანს
+ეს ელემენტი მოყვება ყველგან იგივე ადგილას, ანუ არ რჩება ეკრანის გარეთ ეს ელემენტი, მაგალითად სათაური.
+anjelas 44 გაკვეთილი, 7-8 თავი*/
+
+
+body{
+  margin: 0px;
+}
+.red{
+  background-color: red;
+  width: 100px;
+  height: 100px;
+  display: inline-block;
+  position: relative;
+  left: 200px;
+}
+
+.blue{
+  background-color: blue;
+  width: 100px;
+  height: 100px;
+  display: inline-block;
+  position: relative;
+  right: 100px;
+}
+
+.yellow{
+  background-color: yellow;
+  width: 100px;
+  height: 100px;
+  display: inline-block;
+  position: relative;
+  right: 100px;
+}
+
+
+.red2{
+  background-color: red;
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  left: 200px;
+  top: 300px;
+
+}
+
+.blue2{
+  background-color: blue;
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  top: 200px;
+  left: 100px;
+}
+
+.yellow2{
+  background-color: yellow;
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  top: 100px;
+}
