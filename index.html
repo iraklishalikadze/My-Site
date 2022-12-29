@@ -4,6 +4,7 @@
 icon - არის შენი გვერდის სახელის გვერდიტ რამე სურათი რომ დაადო
 div არის ცალკე ელემენტის გამოყოფა რაზეც როგორც ცალკე ჯგუფს ისე შევუცვლით სტილს.
 span არის  inlane ელემენტი. ვნახო სავარჯიშოს ფაილში
+link ფონტისთვის დავაკოპირე გუგლი ფონტის საიტიდან
  -->
 
 
@@ -15,20 +16,55 @@ span არის  inlane ელემენტი. ვნახო სავა
     <title>Irakli shalikadze</title>
     <link rel="stylesheet" href="css\styles.css">
     <link rel="icon" href="favicon.ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Kalam&family=Merriweather&family=Montserrat&display=swap" rel="stylesheet">
   </head>
   <body>
     <div class="top-conteiner">
       <img class="top-cloud"src="images\cloud.png" alt="cloud-img">
-      <h1>I'm Irakli.</h1>
+      <h1>I'm Irakli</h1>
       <p>a <span class="pro">pro</span>grammer.</p>
       <img class="bottom-cloud"src="images\cloud.png" alt="cloud-img">
       <img src="images\mountain.png" alt="mountain-img">
     </div>
-    <div class="midle-conteiner">
 
+
+    <div class="middle-container">
+      <div class="profile">
+        <img class="my-foto" src="images\my-foto.png" alt="foto">
+        <h2>Hello.</h2>
+        <p class="about-me">I am a very motivated, responsible person, who can work in a team
+           as well as make decisions independently and take responsibility for
+            their results. What about programming, in December 2021, I became very
+             interested and started learning on my own. Nowadays I continue my
+              study through various sites and online courses. </p>
+      </div>
+      <hr>
+      <div class="skills">
+        <h2>My Skills</h2>
+        <img class="skill-image" src="images\python2.jpg" alt="foto-python">
+        <img class="skill-image" src="images\css.png" alt="foto-css">
+        <img class="skill-image" src="images\html.png" alt="foto-html">
+        <img class="skill-image" src="images\git-github.png" alt="foto-git">
+        <img class="skill-image" src="images\sql.png" alt="foto-sql">
+        <h3 class="also-python-laibreries">Also Python libraries</h3>
+          <ul>
+            <li>numpy</li>
+            <li>Pandas</li>
+            <li>Turtle</li>
+            <li>Tkinter</li>
+          </ul>
+      <hr>
+      <div class="contact-me">
+        <h2>Get In Touch</h2>
+        <h3>If you are looking for a team member who is motivated and responsible.</h3>
+      </div>
     </div>
-    <div class="bottom-conteiner">
 
+    <div class="bottom-container">
+      <a class="footer-link" href="https://www.linkedin.com/in/irakli-shalikadze-213645138/">LinkedIn</a>
+      <a class="footer-link" href="https://github.com/iraklishalikadze">Github</a>
+      <p>irakli.shalikadze@gmail.com</p>
+      <p>© 2022 Irakli Shalikadze.</p>
     </div>
   </body>
 </html>

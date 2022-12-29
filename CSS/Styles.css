@@ -2,22 +2,38 @@
 padding - არის ტექსტსა ან სურათზე დაშორება მის საზღვართან(border), გარეთა ჩარჩოსთან
 border - არის ტექსტის ან სურათის რკალი, საზღვარი ირგვლივ რაც აქვს (ჩარჩო).
 margin - არის საზღვარის (border) ირგვლივ გარედან დაშორება გარე ჩარჩოსთან
+font-family -ში პირველს რასაც მიუთითებ ელემენტად ის ფონტი იქნება, მაგრამ თუ მომხმარებელს ეს ფონტი არ ექნება მაშინ მეორეს გამოიყენებს. ასე შეგიძლია
+რამოდენიმე ფონტი მიუთითო და თანმიმდევრობით გახსნის თუ რომელიმე ფონტი არ აქვს.
 */
 
 
 body{
   margin: 0;
   text-align: center;
+  font-family: 'Merriweather', monospace;
 }
 
 h1{
   margin-top: 0;
+  font-family: 'Kalam', sans-serif;
 }
 
-.bottom-conteiner{
-  background: blue;
-  width: 200px;
-  height: 200px;
+h2{
+  font-family: 'Montserrat', sans-serif;
+}
+
+h3{
+  font-family: 'Montserrat', sans-serif;
+}
+
+.about-me{
+  text-indent: 50px;
+  text-align: justify;
+  letter-spacing: 3px;
+  width: 1000px;
+  padding-left: 250px;
+}
+.bottom-container {
 }
 
 .bottom-cloud{
@@ -26,10 +42,11 @@ h1{
   bottom: 300px;
 }
 
-.midle-conteiner{
-  background-color: red;
+.middle-container{
+}
+
+.my-foto{
   width: 200px;
-  height: 200px;
 }
 
 .pro{
@@ -46,4 +63,19 @@ h1{
   position: absolute;
   right: 500px;
   top: 50px;
+}
+
+.skill-image{
+  width: 100px;
+  height: 100px;
+}
+ul{
+  display: inline-block;
+  text-align: left;
+  margin-top: 0px;
+}
+
+.also-python-laibreries{
+  margin-bottom: 0px;
+  margin-top: 25px;
 }
