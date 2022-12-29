@@ -26,7 +26,7 @@ h3{
   font-family: 'Montserrat', sans-serif;
 }
 
-.about-me{
+.big-txt{
   text-indent: 50px;
   text-align: justify;
   letter-spacing: 3px;
@@ -75,15 +75,16 @@ ul{
   margin-top: 0px;
 }
 
-.also-python-laibreries{
+.head-margins{
   margin-bottom: 0px;
   margin-top: 25px;
 }
 
-.my-pages{
-  margin-bottom: 0px;
-}
-
 .end-line{
   margin-top: 35px;
+}
+
+.education{
+  display: block;
+  margin-bottom: 10px;
 }
